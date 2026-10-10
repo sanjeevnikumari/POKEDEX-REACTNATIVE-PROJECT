@@ -1,56 +1,113 @@
-# Welcome to your Expo app 👋
+# 🐱 Pokédex App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and interactive **Pokédex mobile application** built using React Native and Expo. The app fetches Pokémon data from the PokéAPI and displays Pokémon names, front and back sprites, and their types in colorful cards.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+* 🔍 Fetches Pokémon data from the PokéAPI.
+* 🎨 Displays Pokémon in colorful cards based on their types.
+* 🖼️ Shows front and back Pokémon sprites.
+* 🏷️ Displays Pokémon names and types.
+* 📱 Built with React Native and Expo for mobile development.
+* 🔗 Tap a Pokémon to navigate to its detail screen.
+* ⏳ Handles loading states while fetching data.
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
 
-2. Start the app
+* **React Native** — Mobile application development
+* **Expo** — Development and build tooling
+* **Expo Router** — File-based navigation
+* **TypeScript** — Type-safe development
+* **PokéAPI** — Pokémon data and sprites
+* **React Hooks** — State management and side effects
 
-   ```bash
-   npx expo start
-   ```
+## 📂 Project Structure
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+pokedex/
+├── app/
+│   ├── _layout.tsx
+│   ├── index.tsx
+│   └── details.tsx
+├── assets/
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🚀 Getting Started
 
-### Other setup steps
+### 1. Clone the repository
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```bash
+git clone <your-repository-url>
+```
 
-## Learn more
+### 2. Navigate to the project folder
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+cd pokedex
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 3. Install dependencies
 
-## Join the community
+```bash
+npm install
+```
 
-Join our community of developers creating universal apps.
+### 4. Start the development server
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npx expo start
+```
+
+### 5. Run the application
+
+* Scan the QR code using Expo Go.
+* Press `a` to run on an Android emulator.
+* Press `i` to run on an iOS simulator, if available.
+
+## 🌐 API Used
+
+This project uses the free **[PokéAPI](https://pokeapi.co/)** to retrieve Pokémon information.
+
+Example endpoints:
+
+```text
+https://pokeapi.co/api/v2/pokemon?limit=50
+https://pokeapi.co/api/v2/pokemon/pikachu
+```
+
+The API provides Pokémon names, sprite images, types, and other details.
+
+## 📚 What I Learned
+
+* Working with APIs using `fetch()`.
+* Managing component state using `useState`.
+* Fetching data with `useEffect`.
+* Displaying dynamic data using `map()`.
+* Styling components with React Native `StyleSheet`.
+* Implementing navigation with Expo Router.
+* Handling loading states and missing Pokémon images.
+* Using TypeScript interfaces for API responses.
+
+## 🔮 Future Improvements
+
+* Add Pokémon search functionality.
+* Add pagination or infinite scrolling.
+* Display Pokémon stats, abilities, and height.
+* Add a favorites feature.
+* Improve the UI with animations and responsive layouts.
+* Add filters by Pokémon type.
+
+## 🙌 Acknowledgements
+
+* [PokéAPI](https://pokeapi.co/) for providing free Pokémon data.
+* [Expo](https://expo.dev/) for simplifying React Native development.
+
+---
+
+⭐ If you like this project, consider giving the repository a star!
+
+**Built with ❤️ using React Native and Expo.**
+<img width="720" height="1600" alt="WhatsApp Image 2026-10-11 at 12 25 24 AM" src="https://github.com/user-attachments/assets/f4de95b7-7ae7-4dc2-bd76-c00eeccde853" />
