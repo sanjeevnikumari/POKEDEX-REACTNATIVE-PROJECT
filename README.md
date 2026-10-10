@@ -111,3 +111,4 @@ The API provides Pokémon names, sprite images, types, and other details.
 
 **Built with ❤️ using React Native and Expo.**
 <img width="720" height="1600" alt="WhatsApp Image 2026-10-11 at 12 25 24 AM" src="https://github.com/user-attachments/assets/f4de95b7-7ae7-4dc2-bd76-c00eeccde853" />
+<img width="720" height="1600" alt="WhatsApp Image 2026-10-11 at 12 25 25 AM" src="https://github.com/user-attachments/assets/56e8f3cf-5c62-456d-b058-7e28e5d72a57" />
